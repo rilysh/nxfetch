@@ -1,0 +1,14 @@
+$BLUE$          A                 $WHITE$$USER$$WHITE$$END$@$WHITE$$HOST$$END$
+$BLUE$         ooo                $END$$LINE$
+$BLUE$        ooooo               $BLUE$OS$END$: $OS$
+$BLUE$       ooooooo              $BLUE$Kernel$END$: $KERNEL$
+$BLUE$      ooooooooo             $BLUE$Uptime$END$: $UPTIME$
+$BLUE$     ooooo ooooo            $BLUE$Packages$END$: $PACKAGES$
+$BLUE$    ooooo   ooooo           $BLUE$DE/WM$END$: $DWM$
+$BLUE$   ooooo     ooooo          $BLUE$Shell$END$: $SHELL$
+$BLUE$  ooooo$END$  $WHITE$<oooooooo>$END$         $BLUE$CPU$END$: $CPU$
+$BLUE$ ooooo $END$    $WHITE$<oooooo>$END$         $BLUE$G-Vendor$END$: $GPU$
+$BLUE$ooooo          $WHITE$<oooo>$END$       $BLUE$Memory$END$: $MEMORY$
+                            $BLUE$Swap$END$: $SWAP$
+
+                            $END$$RED$$BLOCK$$GREEN$$BLOCK$$YELLOW$$BLOCK$$BLUE$$BLOCK$$PURPLE$$BLOCK$$CYAN$$BLOCK$$WHITE$$BLOCK$$END$

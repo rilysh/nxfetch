@@ -1,0 +1,14 @@
+$GREEN$    _______        $USER$$END$@$GREEN$$HOST$
+$GREEN$ _ \______ -       $END$$LINE$
+$GREEN$| \  ___  \ |      $WHITE$OS$END$: $OS$
+$GREEN$| | /   \ | |      $WHITE$Kernel$END$: $KERNEL$
+$GREEN$| | \___/ | |      $WHITE$Uptime$END$: $UPTIME$
+$GREEN$| \______ \_|      $WHITE$Packages$END$: $PACKAGES$
+$GREEN$ -_______\         $WHITE$DE/WM$END$: $DWM$
+                   $WHITE$Shell$END$: $SHELL$
+                   $WHITE$CPU$END$: $CPU$
+                   $WHITE$G-Vendor$END$: $GPU$
+                   $WHITE$Memory$END$: $MEMORY$
+                   $WHITE$Swap$END$: $SWAP$
+
+                   $END$$RED$$BLOCK$$GREEN$$BLOCK$$YELLOW$$BLOCK$$BLUE$$BLOCK$$PURPLE$$BLOCK$$CYAN$$BLOCK$$WHITE$$BLOCK$$END$

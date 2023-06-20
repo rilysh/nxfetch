@@ -1,0 +1,14 @@
+$CYAN$      /\             $CYAN$$USER$$END$@$CYAN$$HOST$$END$
+$CYAN$     /  \            $LINE$
+$CYAN$    /`'.,\           $CYAN$OS$END$: $OS$
+$CYAN$   /     ',          $CYAN$Kernel$END$: $KERNEL$
+$CYAN$  /      ,`\         $CYAN$Uptime$END$: $UPTIME$
+$CYAN$ /   ,.'`.  \        $CYAN$Packages$END$: $PACKAGES$
+$CYAN$/.,'`     `'.\       $CYAN$DE/WM$END$: $DWM$
+                     $CYAN$Shell$END$: $SHELL$
+                     $CYAN$CPU$END$: $CPU$
+                     $CYAN$G-Vendor$END$: $GPU$
+                     $CYAN$Memory$END$: $MEMORY$
+                     $CYAN$Swap$END$: $SWAP$
+
+                     $END$$RED$$BLOCK$$GREEN$$BLOCK$$YELLOW$$BLOCK$$BLUE$$BLOCK$$PURPLE$$BLOCK$$CYAN$$BLOCK$$WHITE$$BLOCK$$END$

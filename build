@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+## .!- build script -!
+
+[ ! "$(command -v cc)" ] && {
+    echo "Error: No C compiler was found."
+    exit 1
+}
+
+DEBUG_FLAGS="-O3 -Wall -Wextra -g -DIEC_SPEC"
+PUBLIC_FLAGS="-O3 -Wall -Wextra -s -DIEC_SPEC"
+LINK="-lpci -lm"
+PROGRAM=nxfetch
+UTIL=util
+
+build() {
+    [ "$1" == "--debug" ] && {
+        cc $DEBUG_FLAGS $PROGRAM.c $UTIL.c $LINK -o $PROGRAM
+        exit 0
+    }
+
+    [ "$1" == "--cleanup" ] && {
+        rm *.s *.out nxfetch
+        exit 0
+    }
+
+    cc $PUBLIC_FLAGS $PROGRAM.c $UTIL.c $LINK -o $PROGRAM
+    exit 0
+}
+
+build "$1"

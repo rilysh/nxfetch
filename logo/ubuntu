@@ -1,0 +1,13 @@
+$RED$         _         $USER$$END$@$RED$$HOST$
+$RED$     ---(_)        $END$$LINE$
+$RED$ _/  ---  \        OS$END$: $OS$
+$RED$(_) |   |          Kernel$END$: $KERNEL$
+$RED$  \  --- _/        Uptime$END$: $UPTIME$
+$RED$     ---(_)        Packages$END$: $PACKAGES$
+                   $RED$Shell$END$: $SHELL$
+                   $RED$CPU$END$: $CPU$
+                   $RED$G-Vendor$END$: $GPU$
+                   $RED$Memory$END$: $MEMORY$
+                   $RED$Swap$END$: $SWAP$
+
+                   $END$$RED$$BLOCK$$GREEN$$BLOCK$$YELLOW$$BLOCK$$BLUE$$BLOCK$$PURPLE$$BLOCK$$CYAN$$BLOCK$$WHITE$$BLOCK$$END$
